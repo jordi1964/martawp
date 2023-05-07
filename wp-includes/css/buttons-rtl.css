@@ -1,3 +1,4 @@
+/*! This file is auto-generated */
 /* ----------------------------------------------------------------------------
 
 NOTE: If you edit this file, you should make sure that the CSS rules for
@@ -194,7 +195,7 @@ TABLE OF CONTENTS:
 	border-radius: 0;
 	background: none;
 	cursor: pointer;
-	text-align: left;
+	text-align: right;
 	/* Mimics the default link style in common.css */
 	color: #2271b1;
 	text-decoration: underline;
@@ -298,19 +299,19 @@ TABLE OF CONTENTS:
 .wp-core-ui .button-group > .button {
 	display: inline-block;
 	border-radius: 0;
-	margin-right: -1px;
+	margin-left: -1px;
 }
 
 .wp-core-ui .button-group > .button:first-child {
-	border-radius: 3px 0 0 3px;
-}
-
-.wp-core-ui .button-group > .button:last-child {
 	border-radius: 0 3px 3px 0;
 }
 
+.wp-core-ui .button-group > .button:last-child {
+	border-radius: 3px 0 0 3px;
+}
+
 .wp-core-ui .button-group > .button-primary + .button {
-	border-left: 0;
+	border-right: 0;
 }
 
 .wp-core-ui .button-group > .button:focus {
@@ -372,7 +373,7 @@ TABLE OF CONTENTS:
 	/* Publish Metabox Options */
 	.wp-core-ui .save-post-status.button {
 		position: relative;
-		margin: 0 14px 0 10px; /* 14px right margin to match all other buttons */
+		margin: 0 10px 0 14px; /* 14px right margin to match all other buttons */
 	}
 
 	/* Reset responsive styles in Press This, Customizer */
@@ -387,7 +388,7 @@ TABLE OF CONTENTS:
 
 	.media-modal-content .media-toolbar-primary .media-button {
 		margin-top: 10px;
-		margin-left: 5px;
+		margin-right: 5px;
 	}
 
 	/* Reset responsive styles on Log in button on iframed login form */
